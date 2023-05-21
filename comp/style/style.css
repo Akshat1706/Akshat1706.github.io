@@ -167,9 +167,9 @@ li {
 }
 
 .poster {
-	width: 45%;
-	height: 50%;
-	margin-left: -5%;
+	width: 25%;
+	height: 30%;
+	margin-left: 5%;
 	margin-top: 5.5%;
 	border-radius: 10px ;
 	margin-right: 10%;
@@ -193,7 +193,7 @@ li {
 	font-family: 'Poppins', sans-serif;
 	margin-top: 5%;
 	width: 50%;
-	margin-left: -5%;
+	margin-left: 5%;
 }
 
 .fp-watermark {
