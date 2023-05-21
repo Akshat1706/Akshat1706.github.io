@@ -14,7 +14,7 @@ font-family: 'Roboto', sans-serif; */
 
 
 body {
-	
+
 	overflow-x: hidden;
 }
 
@@ -132,33 +132,6 @@ li {
 	margin-left: 15%;
 }
 
-.list {
-	margin-left: 25%;
-}
-
-.llist {
-	float: right;
-	list-style-type: none;
-	counter-reset: num;
-	margin-right: 15%;
-	margin-top: -25%;
-}
-
-.pointers {
-	margin-top: 55%;
-	font-size: 1.1rem;
-	counter-increment: num;
-	font-family: 'Poppins', sans-serif;
-}
-
-.pointers::before {
-	content: "0"counter(num)". ";
-	text-decoration: underline;
-	font-family: 'Montserrat Alternates', sans-serif;
-	margin-right: 15%;
-	font-style: italic;
-	font-size: 1.3rem;
-}
 
 .heading1 {
 	color: white;
@@ -177,6 +150,18 @@ li {
 	font-size: 3rem;
 	font-family: 'Montserrat', sans-serif;
 	text-align: center;
+}
+
+#about {
+	background: #121212;
+}
+
+#product {
+	background: #1A1A1A;
+}
+
+#teams {
+	background: #1C1C1C;
 }
 
 .poster {
@@ -221,7 +206,7 @@ li {
   left: 50%;
   top: 50%;
   transform: translate(0%, -50%); 
-  user-select: none; /* -- Prevent image highlighting -- */
+  user-select: none;
 }
 
 #image-track > .image {
